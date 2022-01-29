@@ -114,31 +114,10 @@ h1 {
   }
 }
 
-/* Carousel styling */
-#introCarousel,
-.carousel-inner,
-.carousel-item,
-.carousel-item.active {
-  height: 100vh;
-}
-
-.carousel-item:nth-child(1) {
-  background-image: url("https://d1mvkgd75mydej.cloudfront.net/DSC03413.jpg");
-  background-repeat: no-repeat;
+.mdb-carousel-item {
   background-size: cover;
   background-position: center center;
-}
-.carousel-item:nth-child(2) {
-  background-image: url("https://miro.medium.com/max/2000/1*Jb9xAs1zglLMElx-cpNRAg.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-.carousel-item:nth-child(3) {
-  background-image: url("https://mdbootstrap.com/img/Photos/Others/images/78.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 /* Height for devices larger than 576px */
