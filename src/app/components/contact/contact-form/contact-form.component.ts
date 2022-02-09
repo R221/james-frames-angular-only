@@ -1,15 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 
+import { Client } from 'src/app/client';
+
 @Component({
   selector: 'app-contact-form',
   templateUrl: './contact-form.component.html',
-  styleUrls: ['./contact-form.component.scss']
+  styleUrls: ['./contact-form.component.scss'],
 })
-export class ContactFormComponent implements OnInit {
+export class ContactFormComponent {
+  reasons = [
+    'Wedding',
+    'Birthday Party',
+    'Sports',
+    'Outdoor (Hike, etc)',
+    'Other',
+  ];
 
-  constructor() { }
+  model = new Client(1, '', '', '', this.reasons[0]);
 
-  ngOnInit(): void {
+  submitted = false;
+
+  onSubmit() {
+    this.submitted = true;
   }
-
 }
