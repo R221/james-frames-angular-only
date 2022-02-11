@@ -1,147 +1,100 @@
-<!--Main layout-->
-<main class="mt-5">
-  <div class="container">
-    <!--Section: Content-->
-    <section>
-      <div class="row">
-        <div class="col-md-6 gx-5 mb-4">
-          <div
-            class="bg-image hover-overlay ripple shadow-2-strong"
-            data-mdb-ripple-color="light"
-          >
-            <img
-              src="https://d1mvkgd75mydej.cloudfront.net/portrait-bw.jpg"
-              class="img-fluid"
-              alt="Portrait of Rob James"
-            />
-            <a href="#!">
-              <div
-                class="mask"
-                style="background-color: rgba(251, 251, 251, 0.15)"
-              ></div>
-            </a>
-          </div>
-        </div>
+<div class="container-flex">
+  <div class="p-5 col col-md-12">
+    <mdb-accordion>
+      <mdb-accordion-item>
+        <ng-template mdbAccordionItemHeader>Where are you from?</ng-template>
+        <ng-template mdbAccordionItemBody>
+          I'm originally from Alabama, United States. I've also lived in
+          Georgia, San Diego, Virginia, and most recently Japan!
+        </ng-template>
+      </mdb-accordion-item>
+      <mdb-accordion-item>
+        <ng-template mdbAccordionItemHeader>What do you shoot?</ng-template>
+        <ng-template mdbAccordionItemBody>
+          Weddings, engagements, baby showers, graduation photos, work/holiday
+          parties, hotdog eating contests. You know, the ususal.
+        </ng-template>
+      </mdb-accordion-item>
+      <mdb-accordion-item>
+        <ng-template mdbAccordionItemHeader
+          >How would you describe your style?</ng-template
+        >
+        <ng-template mdbAccordionItemBody>
+          Cinematic candids. My style is bound to make you feel like you're in a
+          movie.
+        </ng-template>
+      </mdb-accordion-item>
+      <mdb-accordion-item>
+        <ng-template mdbAccordionItemHeader
+          >Are you the photographer for me?</ng-template
+        >
+        <ng-template mdbAccordionItemBody>
+          Well yeah! Especially if you like having around someone that wants to
+          document every little thing for you, has a creative eye, and positive
+          energy.
+        </ng-template>
+      </mdb-accordion-item>
 
-        <div class="col-md-6 gx-5 mb-4">
-          <h2 class="text-center">
-            <strong
-              >More about Rob, your new photographer for all occassions</strong
-            >
-          </h2>
+      <mdb-accordion-item>
+        <ng-template mdbAccordionItemHeader>
+          Who is your typical customer?</ng-template
+        >
+        <ng-template mdbAccordionItemBody>
+          My core customers are families, individuals, and event planners that
+          are hosting parties and celebrations of all sizes.
+        </ng-template>
+      </mdb-accordion-item>
+
+      <mdb-accordion-item>
+        <ng-template mdbAccordionItemHeader>
+          What camera equipment do you use?</ng-template
+        >
+        <ng-template mdbAccordionItemBody>
+          I shoot exclusively on Sony mirrorless for its superb color
+          reproduction and versatility.
           <br /><br />
+          Camera body: Sony A7III, soon to add Sony A9. Lenses: Sigma Art 20mm
+          f/1.4, Sony 24-105mm f/4.0, Sigma Art 50mm f/1.8, Sony 70-200mm f/2.8
+          GM I.
+        </ng-template>
+      </mdb-accordion-item>
 
-          <!--FAQ-->
-          <div class="container-flex">
-            <ul>
-              <h3 class="text-center">Frequently Asked Questions</h3>
-              <br />
-              <a
-                class="btn btn-dark d-flex justify-content-center"
-                data-bs-toggle="collapse"
-                href="#events"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                What do you shoot?
-              </a>
-              <div class="collapse" id="events">
-                <div class="card card-body">
-                  Weddings, engagements, baby showers, graduation photos,
-                  work/holiday parties, hotdog eating contests. You know, the
-                  ususal.
-                </div>
-              </div>
-              <br />
-
-              <a
-                class="btn btn-dark d-flex justify-content-center align-items-center"
-                data-bs-toggle="collapse"
-                href="#style"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                How would you describe your style?
-              </a>
-              <div class="collapse" id="style">
-                <div class="card card-body">
-                  Cinematic candids. My style is bound to make you feel like
-                  you're in a movie.
-                </div>
-              </div>
-              <br />
-
-              <a
-                class="btn btn-dark d-flex justify-content-center align-items-center"
-                data-bs-toggle="collapse"
-                href="#choice"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Are you the photographer for me?
-              </a>
-              <div class="collapse" id="choice">
-                <div class="card card-body">But of course.</div>
-              </div>
-              <br />
-
-              <a
-                class="btn btn-dark d-flex justify-content-center align-items-center"
-                data-bs-toggle="collapse"
-                href="#customer"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Who is your typical customer?
-              </a>
-              <div class="collapse" id="customer">
-                <div class="card card-body">
-                  My core customers are families, individuals, and event
-                  planners that are hosting parties and celebrations of all
-                  sizes.
-                </div>
-              </div>
-              <br />
-              <a
-                class="btn btn-dark d-flex justify-content-center align-items-center"
-                data-bs-toggle="collapse"
-                href="#gear"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                What camera equipment do you use?
-              </a>
-              <div class="collapse" id="gear">
-                <div class="card card-body">
-                  I shoot exclusively on Sony for its superb color reproduction
-                  and versatility.
-                  <br />
-                  My body: Sony A7III, soon to add Sony A9. My lenses: Sigma Art
-                  20mm f/1.4, Sony 24-105mm f/4.0, Sigma Art 50mm f/1.8, Sony
-                  70-200mm f/2.8 GM I.
-                </div>
-              </div>
-              <br />
-
-              <!-- Submit button -->
-              <a
-                class="btn btn-primary btn-block mb-5"
-                href="/Contact"
-                role="button"
-              >
-                Contact
-              </a>
-
-              <!--Section: Content-->
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+      <mdb-accordion-item>
+        <ng-template mdbAccordionItemHeader>
+          Where can I see more of your pictures?</ng-template
+        >
+        <ng-template mdbAccordionItemBody>
+          View my complete collection and buy prints at
+          <a href="https://robertjames.photos">robertjames.photos</a>
+        </ng-template>
+      </mdb-accordion-item>
+    </mdb-accordion>
   </div>
-</main>
+</div>
+
+<div class="d-flex justify-content-center">
+  <div class="col-md-2">
+    <div class="row mb-4">
+      <div class="col">
+        <a
+          class="btn btn-primary btn-block mb-4 p-3"
+          href="/Contact"
+          role="button"
+        >
+          Ask me more questions
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--
+<div class="p-5">
+  <div class="col-sm-4 col-md-12 d-flex">
+    <img
+      src="https://d1mvkgd75mydej.cloudfront.net/portrait-bw.jpg"
+      class="img-thumbnail img-fluid w-50"
+      alt="..."
+    />
+  </div>
+</div>
+--></div>
