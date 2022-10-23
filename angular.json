@@ -103,5 +103,8 @@
       }
     }
   },
-  "defaultProject": "jamesframes-frontend"
+  "defaultProject": "jamesframes-frontend",
+  "cli": {
+    "analytics": "5ed72b3e-f4db-49c0-b34d-1080d4dc782e"
+  }
 }
